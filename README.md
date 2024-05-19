@@ -7,7 +7,7 @@ Este projeto implementa um sistema de monitoramento de concentração de CO2 com
 -------------------------------------------------------------------------------------------------------------
 -----
 
-#Funcionamento e Uso:
+# Funcionamento e Uso:
 -
 Conexão à Rede WiFi: O ESP8266 se conecta à rede WiFi usando as credenciais fornecidas.
 -
@@ -25,9 +25,9 @@ Reconexão Automática: O sistema tenta se reconectar automaticamente ao broker 
 -------------------------------------------------------------------------------------------------------------
 -----
 
-#Software e Documentação do Código:
+# Software e Documentação do Código:
 -
-#Estrutura do Código:
+# Estrutura do Código:
 -
 Imports de Dependências: As bibliotecas necessárias são incluídas no início do código.
 -
@@ -46,7 +46,7 @@ Descrição do Hardware Utilizado
 -------------------------------------------------------------------------------------------------------------
 -----
 
-#Plataforma de Desenvolvimento: ESP8266
+# Plataforma de Desenvolvimento: ESP8266
 Descrição: Microcontrolador com WiFi integrado, utilizado para conectar à rede e enviar dados.
 Função: Conectar ao WiFi, ler dados do sensor, e comunicar-se com ThingSpeak e Telegram.
 Sensor de Fumaça: MQ-2 (ou similar)
@@ -64,7 +64,7 @@ Conexão: Pino D7 do ESP8266.
 -------------------------------------------------------------------------------------------------------------
 -----
 
-#Documentação das Interfaces, Protocolos e Módulos de Comunicação:
+# Documentação das Interfaces, Protocolos e Módulos de Comunicação:
 -
 WiFi (ESP8266WiFi.h):
 Função: Conectar o ESP8266 à rede WiFi.
@@ -86,7 +86,7 @@ Envio de Mensagem: bot.sendMessage(CHAT_ID, message, "");
 -------------------------------------------------------------------------------------------------------------
 -----
 
-#Instruções para Reproduzir:
+# Instruções para Reproduzir:
 -
 1 - Hardware:
 Monte o circuito conforme descrito acima, conectando o sensor de fumaça ao pino A0 e o LED ao pino D7 do ESP8266.
