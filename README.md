@@ -1,6 +1,6 @@
 # Objetos-inteligentes
 
-#Sistema de Monitoramento e Alarme de CO2 e fumaça
+# Sistema de Monitoramento e Alarme de CO2 e fumaça
 Este projeto implementa um sistema de monitoramento de concentração de CO2 com notificações via Telegram e publicação de dados no ThingSpeak. O sistema utiliza um ESP8266 para ler os valores de um sensor de fumaça e acionar um alarme LED caso a concentração de CO2 exceda um limite predefinido. Além disso, os dados são enviados periodicamente para o ThingSpeak, e notificações são enviadas via Telegram quando o alarme é acionado.
 
 -----
