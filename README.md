@@ -24,14 +24,14 @@ Este projeto implementa um sistema de monitoramento de concentração de CO2 com
 # Plataforma de Desenvolvimento: ESP8266
 - Descrição: Microcontrolador com WiFi integrado, utilizado para conectar à rede e enviar dados.
 - Função: Conectar ao WiFi, ler dados do sensor, e comunicar-se com ThingSpeak e Telegram.
-- Sensor de Fumaça: MQ-2 (ou similar)
+- Sensor de Fumaça: MQ-2 
 ----------------
-#Sensor de Fumaça: MQ-2 (ou similar)
+# Sensor de Fumaça: MQ-2 
 - Descrição: Sensor analógico utilizado para detectar concentrações de CO2.
 - Conexão: Pino A0 do ESP8266.
 - LED de Alarme: LED Vermelho
 ----------------
-#LED de Alarme: LED Vermelho
+# LED de Alarme: LED Vermelho
 - Descrição: LED utilizado para indicar quando a concentração de CO2 ultrapassa o limite.
 - Conexão: Pino D7 do ESP8266.
 
